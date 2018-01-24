@@ -36,6 +36,7 @@ public class EmployeeController {
 	@RequestMapping("/list")
 	public String listContacts(Map<String, Object> map) {
 	    map.put("contact", new EmployeeCommand());
+System.out.println("test");
 	    map.put("contactList", employeeService.listContact());
 	 return "list";
 	}

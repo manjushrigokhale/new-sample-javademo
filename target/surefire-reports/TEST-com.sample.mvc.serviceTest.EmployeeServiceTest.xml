@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.sample.mvc.serviceTest.EmployeeServiceTest" time="0" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.sample.mvc.serviceTest.EmployeeServiceTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
     <property name="java.vm.version" value="25.101-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="d:/ALM Training/Sonar Training/new-javademo"/>
+    <property name="maven.multiModuleProjectDirectory" value="d:/ALM Training/tools/Devops/AWS/Elastic Beanstalk/new-javademo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="d:\ALM Training\Sonar Training\new-javademo"/>
+    <property name="user.dir" value="d:\ALM Training\tools\Devops\AWS\Elastic Beanstalk\new-javademo"/>
     <property name="java.runtime.version" value="1.8.0_101-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 8.1"/>
     <property name="classworlds.conf" value="c:/maven3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\manjushrig\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\bin;c:\Program Files\Java\jdk1.8.0_101\bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\TortoiseGit\bin;d:\task\GetName\bin\Debug;c:\Program Files\Java\jdk1.8.0_101\bin;c:\maven3\bin;c:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;c:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\130\Tools\Binn\;c:\PROGRA~2\cvsnt;c:\Program Files\Amazon\AWSCLI\;c:\Program Files\nodejs\;c:\Program Files (x86)\Skype\Phone\;c:\Python27;c:\Users\manjushrig\Desktop\sonar-scanner-2.8\sonar-scanner-2.8\bin;c:\Program Files (x86)\Subversion\bin;c:\Program Files\TortoiseSVN\bin;."/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\manjushrig\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\bin;c:\Program Files\Java\jdk1.8.0_101\bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\TortoiseGit\bin;d:\task\GetName\bin\Debug;c:\Program Files\Java\jdk1.8.0_101\bin;c:\maven3\bin;c:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;c:\PROGRA~2\cvsnt;c:\Program Files\Amazon\AWSCLI\;c:\Program Files\nodejs\;c:\Program Files (x86)\Skype\Phone\;c:\Python27;c:\Users\manjushrig\Desktop\sonar-scanner-2.8\sonar-scanner-2.8\bin;c:\Program Files (x86)\Subversion\bin;c:\Program Files\TortoiseSVN\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_101\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,7 +65,7 @@
   </properties>
   <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testDeleteEmployee" time="0"/>
   <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testAddEmployee" time="0"/>
-  <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testGetEmployeeById" time="0"/>
+  <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testGetEmployeeById" time="0.004"/>
   <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testListContact" time="0"/>
-  <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testUpdateEmployee" time="0"/>
+  <testcase classname="com.sample.mvc.serviceTest.EmployeeServiceTest" name="testUpdateEmployee" time="0.001"/>
 </testsuite>
