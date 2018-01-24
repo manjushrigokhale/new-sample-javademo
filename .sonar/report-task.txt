@@ -1,5 +1,5 @@
 projectKey=Demo-SSL
 serverUrl=http://sonar.cybage.com
 dashboardUrl=http://sonar.cybage.com/dashboard/index/Demo-SSL
-ceTaskId=AWEnlhMfNo3d1dxVBMbS
-ceTaskUrl=http://sonar.cybage.com/api/ce/task?id=AWEnlhMfNo3d1dxVBMbS
+ceTaskId=AWEnl7CGNo3d1dxVBMbT
+ceTaskUrl=http://sonar.cybage.com/api/ce/task?id=AWEnl7CGNo3d1dxVBMbT
